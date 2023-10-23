@@ -1,0 +1,37 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: url("../images/mybn.jpg") no-repeat center fixed;
+	background-size:cover;
+}
+.container
+{
+	width:500px;
+	height:550px;
+	box-sizing:border-box;
+	box-shadow:2px 2px 13px 6px #fff;
+}
+.container h3
+{
+	text-align:center;
+	color:#FFF;
+	padding-top:20px;
+}
+.container input[type="text"],input[type="date"]
+{
+		background:transparent;
+		color:#FFF;
+		font-size:18px;
+}
+.container [type="submit"]
+{
+	width:100%
+}
